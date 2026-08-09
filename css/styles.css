@@ -344,6 +344,9 @@ a.card:hover .card-link { text-decoration: underline; }
 .member-info { min-width: 0; }
 .member-name { font-family: var(--font-display); font-size: 15px; font-weight: 700; color: var(--text); }
 .member-grade { font-size: 12px; color: var(--muted); font-weight: 500; }
+.member-chip.alum { background: var(--bg3); opacity: 0.92; }
+.member-chip.alum .avatar { background: var(--muted); }
+.member-chip.alum .member-grade { font-style: italic; }
 
 /* ---------- TIMELINE ---------- */
 .timeline { border-left: 2px solid var(--border2); padding-left: 30px; margin-left: 6px; }
